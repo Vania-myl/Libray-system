@@ -1,0 +1,101 @@
+.w {
+    margin: 0 auto;
+    background: url(../image/regist背景图片6.jpg);
+    height: 800px;
+}
+
+/* 头部 */
+header {
+    display: block;
+    position: static;
+    height: 84px;
+    width: 100%;
+    border-bottom: 4px solid rgb(122, 159, 207);
+}
+
+.title {
+    font-size: 50px;
+    color: #3e3838;
+    display: inline-flex;
+    position: relative;
+    bottom: 20px;
+}
+
+/* 主体 */
+
+
+.return {
+    display: block;
+    width: 90px;
+    height: 35px;
+    border-radius: 20px;
+    background: #99bce6;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.return a {
+    text-decoration: none;
+    color: #4d4242;
+    font-size: 22px;
+}
+
+a:hover {
+    color: #e38585;
+}
+
+/* 注册表单 */
+h3 {
+    text-align: center;
+    font-size: 40px;
+    color: #524141;
+}
+
+
+.reg_form {
+    width: 550px;
+    background-color: rgb(147, 209, 234);
+    margin: 50px auto 0;
+
+}
+
+
+
+.reg_form ul li {
+    margin-top: 20px;
+    list-style-type: none;
+
+
+}
+
+.reg_form ul li label {
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+}
+
+.reg_form ul li input {
+    width: 242px;
+    height: 37px;
+    border: 1px solid#ccc;
+    ;
+}
+
+.reg_form ul li select {
+    width: 242px;
+    height: 37px;
+    border: 1px solid#ccc;
+    ;
+}
+
+.button {
+    border: 1px solide #73aab6;
+    background: #dde7f2;
+    height: 30px;
+    margin: 10px;
+}
+
+.end {
+    text-align: center;
+}
